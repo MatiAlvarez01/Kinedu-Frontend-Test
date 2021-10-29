@@ -14,7 +14,7 @@ const MainSection = styled.section`
 const GifLoading = styled.img`
 `
 
-function Load() {
+function Load({setModal}) {
     const dispatch = useDispatch();
     const physicalAreaData = useSelector(state => state.physicalData);
     const socialEmotionalAreaData = useSelector(state => state.socialEmotionalData);
@@ -26,7 +26,7 @@ function Load() {
     
     return (
         <div>
-            {(physicalAreaData.data && socialEmotionalAreaData.data) ? <Home physicalAreaData={physicalAreaData} socialEmotionalAreaData={socialEmotionalAreaData}/> : 
+            {(physicalAreaData.data && socialEmotionalAreaData.data) ? <Home physicalAreaData={physicalAreaData} socialEmotionalAreaData={socialEmotionalAreaData} setModal={setModal}/> : 
             <MainSection>
                 <GifLoading src={`/gif/spinnerLoading.gif`} alt="Loading..."/>
             </MainSection>}

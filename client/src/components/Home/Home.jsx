@@ -109,7 +109,7 @@ var DinamicBackgroud = styled.div(({color}) => `
     }
 `)
 
-function Home() {
+function Home({setModal}) {
     const dispatch = useDispatch();
     const [color, setColor] = useState()
     const [area, setArea] = useState("Physical");
@@ -136,6 +136,7 @@ function Home() {
     function handleButtonFinish() {
         dispatch(finishAssessment(answers))
         setAnswers({})
+        setModal(true)
     }
 
     return (
