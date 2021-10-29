@@ -23,4 +23,6 @@ In the terminal, you can follow these steps:
 7) npm start
 8) *When is ready, it should open your navigator and see the web page*
 
+### (You will need the API urls used in the Backend and the Authorization token)
+
 # Hope you like it!
