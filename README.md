@@ -17,7 +17,7 @@ In the terminal, you can follow these steps:
 1) cd .\api\
 2) npm install
 3) npm start
-4)*Open a new terminal WITHOUT closing the current terminal*
+4) *Open a new terminal WITHOUT closing the current terminal*
 5) cd .\client\
 6) npm install
 7) npm start
