@@ -21,6 +21,6 @@ In the terminal, you can follow these steps:
 5) cd .\client\
 6) npm install
 7) npm start
-*When is ready, it should open your navigator and see the web page*
+8) *When is ready, it should open your navigator and see the web page*
 
 # Hope you like it!
